@@ -1,6 +1,4 @@
 
-
-
 body {
   font-family: Myriad Pro;
 }
@@ -30,45 +28,65 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #f1e979;
+  background-color: #00a3ad;
   color: black;
 }
+
+/*PHOTO WITH TEXT*/ 
+
 .container {
   position: relative;
-  text-align: center;
-  color: white;
+  text-align: left;
+  color: black;
+  font-size: 25px;
 }
 
-  .top-left {
+.top-left-header {
+
+  position: absolute;
+  top: 75px;
+  left: 60px;
+  right: 400px;
+}
+
+.top-left-text {
   position: absolute;
   top: 150px;
-  left: 100px;
-  font-size: 40px;
-  font-style: normal;
+  left: 60px;
+  right: 400px;
 }
-
-.top-left-2 {
-  position: absolute;
-  top: 200px;
-  left: 150px;
-  font-size: 40px;
-  font-style: normal;
-}
-
-/*section with upcoming retreats*/
-
-
-.retreats {
+.about {
+  background: white;
+  color: black;
+  height: 1500px;
   margin-top: 75px;
-  color: #00a3ad;
-  text-align: center;
-  font-size: 30px;
  
 }
 
-/*retreat1*/
+/*CONTACT DETAILS*/ 
 
-div#retreat1 {
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.map{
+   margin-left: 150px;
+   margin-right: 100px;
+   margin-top: 75px;
+}
+
+
+/*train info*/
+
+div#train {
   flex-wrap: nowrap;
   flex-direction:row;
   text-align: justify;
@@ -80,63 +98,28 @@ div#retreat1 {
 
 }
 
-div#retreat1info {
+div#traininfo {
   text-align: justify;
   flex: 1 1 auto;
   letter-spacing: 1;
   line-height: 1;
-  opacity: 1;
-  padding: 40px;
   margin-left: 35px;
-  margin-right: 100px;
+  margin-right: 245px;
   font-size: 20px;
+  margin-top: 10px;
 }
 
-div#photo1 {
+div#trainphoto {
  
   object-fit: contain;
   float: left;
   margin-left: 20px;
+  margin-top: 0px;
 }
 
+/*car info*/
 
-/*retreat2*/
-
-div#retreat2 {
-  flex-wrap: nowrap;
-  flex-direction:row;
-  text-align: justify;
-  overflow: hidden;
-  display:flex;
-  margin-right: 100px;
-  margin-left: auto;
-  margin-top: 85px;
-
-}
-
-div#retreat2info {
-  text-align: justify;
-  flex: 1 1 auto;
-  letter-spacing: 1;
-  line-height: 1;
-  opacity: 1;
-  padding: 40px;
-  margin-left: 100px;
-  margin-right: 35px;
-  font-size: 20px;
-}
-
-div#photo2 {
- 
-  object-fit: contain;
-  float: right;
-  margin-left: 20px;
-  padding-top: 30px;
-}
-
-/*retreat 3 info */ 
-
-div#retreat3 {
+div#car {
   flex-wrap: nowrap;
   flex-direction:row;
   text-align: justify;
@@ -144,34 +127,60 @@ div#retreat3 {
   display:flex;
   margin-left: 100px;
   margin-right: auto;
-  margin-top: 75px;
+  margin-top: 20px;
+ } 
 
-}
-
-div#retreat3info {
+div#carinfo {
   text-align: justify;
   flex: 1 1 auto;
   letter-spacing: 1;
   line-height: 1;
-  opacity: 1;
-  padding: 40px;
   margin-left: 35px;
-  margin-right: 100px;
+  margin-right: 245px;
   font-size: 20px;
-}
+  }
 
-div#photo3 {
+div#carphoto {
  
   object-fit: contain;
   float: left;
   margin-left: 20px;
+  margin-top: 0px;
 }
 
-.Summer {
+/*plane info*/ 
+
+div#plane {
+  flex-wrap: nowrap;
+  flex-direction:row;
+  text-align: justify;
+  overflow: hidden;
+  display:flex;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px
+ } 
+
+div#planeinfo {
+  text-align: justify;
+  flex: 1 1 auto;
+  letter-spacing: 1;
+  line-height: 1;
+  margin-left: 35px;
+  margin-right: 245px;
   font-size: 20px;
+  }
 
-
+div#planephoto {
+ 
+  object-fit: contain;
+  float: left;
+  margin-left: 20px;
+  margin-top: 0px;
 }
+
+/*footer*/
 
 .footer {
   position: ;
@@ -181,7 +190,6 @@ div#photo3 {
   background-color: white;
   color: black;
   text-align: center;
-  margin-top: 100px;
 }
 
 .line1 {
