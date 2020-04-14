@@ -18,18 +18,12 @@ body {
   text-decoration: none;
   font-size: 17px;
   font-family: Myriad Pro;
-  margin-left: 75px;
+  margin-left: 100px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.retreats {
-  background-color: #f1e979;
   color: black;
 }
 
