@@ -28,8 +28,8 @@ body {
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #00a3ad;
+.topnav a.retreats {
+  background-color: #f1e979;
   color: black;
 }
 
@@ -38,7 +38,6 @@ body {
   color: black;
   height: 1500px;
   margin-top: 75px;
- 
 }
 
 .header {
@@ -49,14 +48,13 @@ body {
  }
 
 .story {
-
   margin-left: 100px;
   margin-right: 100px;
   font-size: 20px;
-
 }  
 
 /*ANNE */ 
+
 div#Anne {
   flex-wrap: nowrap;
   flex-direction:row;
@@ -66,7 +64,6 @@ div#Anne {
   margin-left: 100px;
   margin-right: auto;
   margin-top: 75px;
-
 }
 
 div#Anneinfo {
@@ -82,13 +79,13 @@ div#Anneinfo {
 }
 
 div#Annephoto {
- 
-  object-fit: contain;
+   object-fit: contain;
   float: left;
   margin-left: 20px;
 }
 
 /* MARILLA*/
+
 div#Marilla {
   flex-wrap: nowrap;
   flex-direction:row;
@@ -98,7 +95,6 @@ div#Marilla {
   margin-right: 100px;
   margin-left: auto;
   margin-top: 85px;
-
 }
 
 div#Marillainfo {
@@ -114,8 +110,7 @@ div#Marillainfo {
 }
 
 div#Marillaphoto {
- 
-  object-fit: contain;
+   object-fit: contain;
   float: right;
   margin-left: 20px;
   padding-top: 30px;
@@ -133,7 +128,6 @@ div#Matt {
   margin-left: 100px;
   margin-right: auto;
   margin-top: 75px;
-
 }
 
 div#Mattinfo {
@@ -149,12 +143,10 @@ div#Mattinfo {
 }
 
 div#Mattphoto {
- 
-  object-fit: contain;
+   object-fit: contain;
   float: left;
   margin-left: 20px;
   height: 150px;
-
 }
 
 .footer {
@@ -166,7 +158,6 @@ div#Mattphoto {
   color: black;
   text-align: center;
   margin-top: 100px;
-
 }
 
 .line1 {

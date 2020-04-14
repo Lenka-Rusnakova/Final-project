@@ -17,7 +17,7 @@ body {
   text-decoration: none;
   font-size: 17px;
   font-family: Myriad Pro;
-  margin-left: 75px;
+  margin-left: 100px;
 }
 
 /* Change the color of links on hover */
@@ -131,7 +131,6 @@ div#text2 {
   color: black;
   text-align: center;
   margin-top: 100px;
-
 }
 
 .line1 {
