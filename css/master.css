@@ -36,16 +36,16 @@ body {
 
   .top-left {
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 100px;
-  font-size: 40px;
+  font-size: 43px;
   font-style: normal;
 }
 
 .top-left-2 {
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 150px;
-  font-size: 40px;
+  font-size: 33px;
   font-style: normal;
 }
